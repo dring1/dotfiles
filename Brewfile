@@ -45,6 +45,7 @@ cask 'transmission'
 cask 'tunnelbear'
 cask 'vagrant-manager'
 cask 'vagrant'
+cask 'vmware-fusion'
 cask 'virtualbox'
 cask 'vlc'
 
