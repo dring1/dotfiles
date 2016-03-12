@@ -31,3 +31,8 @@
         #
         # Setting to git 2.0 default to suppress warning message
         default = simple
+[user]
+	email = dring@qnx.com
+	name = Devon Ring
+[rimnet]
+	user = dring

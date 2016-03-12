@@ -1,10 +1,22 @@
 "*":
+  Zen:
+    softWrap: true
+    width: 120
+  "atom-beautify":
+    _analyticsUserId: "f233910c-e5f7-4bd6-b465-93d8bc1ebff8"
+  "atom-spotify2":
+    showEqualizer: true
   core:
     disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
+      "file-icons"
+      "envygeeks-file-icons"
+      "file-icon-supplement"
+      "file-type-icons"
+      "spell-check"
+      "vim-mode"
+      "vim-surround"
     ]
+    excludeVcsIgnoredPaths: false
     followSymlinks: false
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -15,17 +27,29 @@
       "tmp"
       "vendor"
     ]
+    packagesWithKeymapsDisabled: [
+      "word-jumper"
+    ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "atom-material-ui"
+      "atom-material-syntax"
     ]
   editor:
+    autoIndentOnPaste: false
     fontFamily: "Menlo"
     invisibles: {}
+    scrollPastEnd: true
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "c2cdfb45-0b3d-c757-7479-58d58991dabe"
+  fonts:
+    fontFamily: "Source Code Pro Medium"
+    preview: "igiygygasds"
   "go-plus":
     goPath: "/Users/dring/Code/go"
+  linter:
+    errorPanelHeight: 38
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
@@ -34,5 +58,12 @@
       "source.gfm"
       "text.git-commit"
     ]
+  "sync-settings":
+    _analyticsUserId: "2c84ee9a-ca39-408d-b34a-22fe7d73601a"
+    _lastBackupHash: "437baa3a6dcc5d9adcd17f4eac5a85d015e07858"
+    gistId: "8d631d3deb624645a1d8"
+    personalAccessToken: "14c7e311dc8c0ab152be198e17a2664a2133ab5e"
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false

@@ -1,0 +1,31 @@
+# normal
+'atom-text-editor.vim-mode-plus.normal-mode':
+  'ctrl-j': 'window:focus-pane-below'
+  'ctrl-k': 'window:focus-pane-above'
+  'ctrl-h': 'window:focus-pane-on-left'
+  'ctrl-l': 'window:focus-pane-on-right'
+
+  'g f': 'open-this:here'
+  'ctrl-w f': 'open-this:split-down'
+  'ctrl-w F': 'open-this:split-right'
+
+  'g x': 'link:open'
+  'cmd-enter': 'vim-mode-plus:maximize-pane'
+
+  'ctrl-g': 'vim-mode-plus:reset-normal-mode'
+  'cmd-z': 'vim-mode-plus:toggle-fold'
+  # 'g c': 'vim-mode-plus:select-latest-change'
+  # 'S': 'vim-mode-plus:surround'
+  # # 'y s': 'vim-mode-plus:surround'
+  # 'm s': 'vim-mode-plus:map-surround'
+  # 'd s': 'vim-mode-plus:delete-surround-any-pair'
+  # 'c s': 'vim-mode-plus:change-surround-any-pair'
+
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'ctrl-e': 'vim-mode-plus-user:move-to-end-of-subword'
+  'Q':      'vim-mode-plus-user:move-to-beginning-of-subword'
+  'q':      'vim-mode-plus-user:move-to-next-subword'
+  'S':    'vim-mode-plus:surround'
+
+'atom-text-editor.vim-mode-plus.operator-pending-mode, atom-text-editor.vim-mode-plus.visual-mode':
+  'i q': 'vim-mode-plus-user:inner-subword'
