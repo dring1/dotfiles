@@ -21,9 +21,9 @@ git_dirty() {
   else
     if [[ $($git status --porcelain) == "" ]]
     then
-      echo "on %{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
+      echo "➡ %{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}"
     else
-      echo "on %{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
+      echo "➡ %{$fg_bold[red]%}$(git_prompt_info)%{$reset_color%}"
     fi
   fi
 }
@@ -76,8 +76,12 @@ pretty_whoami() {
 	echo "%{$fg_bold[yellow]%}$(whoami)%{$reset_color%}"
 }
 
+pretty_at() {
+	echo "%{$fg_bold[green]%} @ %{$reset_color%}"
+}
 
-export PROMPT=$'%{$reset_color%}$(pretty_whoami)@$(directory_name) $(git_dirty)$(need_push)\n>  '
+
+export PROMPT=$'\n$(pretty_whoami)$(pretty_at)$(directory_name) $(git_dirty)$(need_push)\n>  '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
