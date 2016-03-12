@@ -71,6 +71,13 @@ directory_name() {
 	echo "%{$fg_bold[cyan]%}%$(pwd)%{$reset_color%}"
 }
 
+pretty_whoami() {
+	i=$(whoami)
+	echo "%{$fg_bold[green]%}%$i%{$reset_color%}"
+	
+}
+
+
 export PROMPT=$'$(whoami)@$(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
