@@ -1,3 +1,4 @@
+#!/bin/sh
 autoload colors && colors
 # cheers, @ehrenmurdick
 # http://github.com/ehrenmurdick/config/blob/master/zsh/prompt.zsh
@@ -72,13 +73,11 @@ directory_name() {
 }
 
 pretty_whoami() {
-	i=$(whoami)
-	echo "%{$fg_bold[green]%}%$i%{$reset_color%}"
-	
+	echo "%{$fg_bold[yellow]%}$(whoami)%{$reset_color%}"
 }
 
 
-export PROMPT=$'$(whoami)@$(directory_name) $(git_dirty)$(need_push)\n› '
+export PROMPT=$'%{$reset_color%}$(pretty_whoami)@$(directory_name) $(git_dirty)$(need_push)\n>  '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
