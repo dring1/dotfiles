@@ -69,7 +69,7 @@ rb_prompt() {
 }
 
 directory_name() {
-	echo "%{$fg_bold[cyan]%}%$(pwd)%{$reset_color%}"
+	echo "%{$fg_bold[cyan]%}$(pwd)%{$reset_color%}"
 }
 
 pretty_whoami() {
@@ -81,7 +81,7 @@ pretty_at() {
 }
 
 
-export PROMPT=$'\n$(pretty_whoami)$(pretty_at)$(directory_name) $(git_dirty)$(need_push)\n>  '
+export PROMPT=$'$(pretty_whoami)$(pretty_at)$(directory_name) $(git_dirty)$(need_push)\n> '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
