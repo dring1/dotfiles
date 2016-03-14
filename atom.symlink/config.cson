@@ -15,6 +15,7 @@
       "spell-check"
       "vim-mode"
       "vim-surround"
+      "sync-settings"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
