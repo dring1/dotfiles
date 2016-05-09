@@ -45,3 +45,4 @@ ssh-add ~/.ssh/id_rsa_qnx &> /dev/null
 ssh-add ~/.ssh/id_rsa &> /dev/null
 
 alias dev-env="cd $PROJECTS/dev-vm"
+

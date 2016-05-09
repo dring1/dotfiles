@@ -36,3 +36,7 @@
 	name = Devon Ring
 [rimnet]
 	user = dring
+[merge]
+	tool = opendiff
+[url "git@git.ci.bbryiot.com:"]
+	insteadOf = https://git.ci.bbryiot.com/

@@ -3,7 +3,54 @@
     softWrap: true
     width: 120
   "atom-beautify":
-    _analyticsUserId: "f233910c-e5f7-4bd6-b465-93d8bc1ebff8"
+    apex: {}
+    arduino: {}
+    c: {}
+    cfml: {}
+    coffeescript: {}
+    cpp: {}
+    cs: {}
+    css: {}
+    d: {}
+    ejs: {}
+    erb: {}
+    fortran: {}
+    general:
+      _analyticsUserId: "f233910c-e5f7-4bd6-b465-93d8bc1ebff8"
+    gherkin: {}
+    handlebars: {}
+    html: {}
+    jade: {}
+    java: {}
+    js:
+      indent_size: 2
+    json: {}
+    jsx: {}
+    latex: {}
+    less: {}
+    marko: {}
+    mustache: {}
+    objectivec: {}
+    pawn: {}
+    perl: {}
+    php: {}
+    python: {}
+    riot: {}
+    ruby: {}
+    rust: {}
+    sass: {}
+    scss: {}
+    spacebars: {}
+    sql: {}
+    svg: {}
+    swig: {}
+    tss: {}
+    twig: {}
+    typescript: {}
+    vala: {}
+    visualforce: {}
+    xml: {}
+    xtemplate: {}
   "atom-spotify2":
     showEqualizer: true
   core:
@@ -16,6 +63,7 @@
       "vim-mode"
       "vim-surround"
       "sync-settings"
+      "activate-power-mode"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -32,7 +80,7 @@
       "word-jumper"
     ]
     themes: [
-      "atom-material-ui"
+      "brogrammer-ui"
       "atom-material-syntax"
     ]
   editor:
@@ -49,8 +97,9 @@
     preview: "igiygygasds"
   "go-plus":
     goPath: "/Users/dring/Code/go"
+  "gometalinter-linter": {}
   linter:
-    errorPanelHeight: 38
+    errorPanelHeight: 138
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
@@ -64,7 +113,8 @@
     _lastBackupHash: "437baa3a6dcc5d9adcd17f4eac5a85d015e07858"
     gistId: "8d631d3deb624645a1d8"
     personalAccessToken: "14c7e311dc8c0ab152be198e17a2664a2133ab5e"
-  "tree-view":
-    hideVcsIgnoredFiles: true
+  "tree-view": {}
   welcome:
     showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
