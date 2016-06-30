@@ -1,7 +1,8 @@
 "*":
   Zen:
-    softWrap: true
-    width: 120
+    gutter: true
+    tabs: "multiple"
+    width: 150
   "atom-beautify":
     apex: {}
     arduino: {}
@@ -64,6 +65,7 @@
       "vim-surround"
       "sync-settings"
       "activate-power-mode"
+      "jshint"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
@@ -80,7 +82,7 @@
       "word-jumper"
     ]
     themes: [
-      "brogrammer-ui"
+      "nucleus-dark-ui"
       "atom-material-syntax"
     ]
   editor:
@@ -99,7 +101,8 @@
     goPath: "/Users/dring/Code/go"
   "gometalinter-linter": {}
   linter:
-    errorPanelHeight: 138
+    errorPanelHeight: 32
+  minimap: {}
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
@@ -113,7 +116,8 @@
     _lastBackupHash: "437baa3a6dcc5d9adcd17f4eac5a85d015e07858"
     gistId: "8d631d3deb624645a1d8"
     personalAccessToken: "14c7e311dc8c0ab152be198e17a2664a2133ab5e"
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   whitespace: {}
